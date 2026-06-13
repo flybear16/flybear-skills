@@ -1,0 +1,9 @@
+{
+  "ownerId": "flybear16",
+  "slug": "fix-issues",
+  "version": "1.0.0",
+  "name": "fix-issues",
+  "description": "GitHub Issue 修复闭环 — 从拉取 issue 到验证推送一条龙。触发场景：用户说「修个 issue」「处理一下 GitHub issues」「fix issues」「看看有没有 bug 要修」「拉 issues 来修」「issue #23 修一下」。覆盖 flybear16 名下所有 repo：① 拉取 open issues ② 人选一个 ③ 理解/复现 ④ TDD 修复 ⑤ 测试门禁 ⑥ commit(Fixes #N) ⑦ 推送(分支→ff 合并 master→推送，不开 PR)。人机协同：推送前必看 diff。",
+  "status": "active",
+  "publishedAt": 1781363833452
+}

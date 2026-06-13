@@ -2,7 +2,7 @@
 
 > **开源共享的 AI 助手技能集合**（Hermes / OpenClaw 兼容），欢迎使用、Star、Fork！
 
-[![Skills: 7](https://img.shields.io/badge/skills-7-blue)]()
+[![Skills: 8](https://img.shields.io/badge/skills-8-blue)]()
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)]()
 [![Open Source](https://img.shields.io/badge/open_source-%E2%9D%A4-red)]()
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 📦 技能列表（7 个）
+## 📦 技能列表（8 个）
 
 | Skill | 触发场景 | 用途 |
 |-------|---------|------|
@@ -36,6 +36,7 @@
 | [**evening-journal**](./evening-journal/) | 用户说「今天结束了」「晚上好」 | SOP-3 晚间复盘 —— 每天 5 分钟结构化反思 |
 | [**sop-2-deep-work-protection**](./sop-2-deep-work-protection/) | — | 深度工作保护机制 (SOP-2) —— 守护 3-5-2 矩阵中 80% builder 时间 |
 | [**ai-news-collectors**](./ai-news-collectors/) | 用户问「今天有什么 AI 新闻？」 | AI 新闻聚合 + 热度排序 |
+| [**fix-issues**](./fix-issues/) | 用户说「修个 issue」「fix issues」「issue #23 修一下」 | GitHub Issue 修复闭环 — 拉取/理解/TDD 修复/验证门禁/推送 master,自动关 issue |
 
 > 标 `public` 的可直接复用，标 `private` 的请先联系作者。
 
