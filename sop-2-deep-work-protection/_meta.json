@@ -1,0 +1,9 @@
+{
+  "ownerId": "flybear16",
+  "slug": "sop-2-deep-work-protection",
+  "version": "1.0.0",
+  "name": "sop-2-deep-work-protection",
+  "description": "深度工作保护机制 (SOP-2) — 守护 3-5-2 矩阵中 80% builder 时间。触发场景：用户说「我要专注」「准备写代码」「进入深度模式」「今天有重活」「关掉飞书通知」「DND」「番茄钟」「focus」「25min」「90min」「1.5 小时」等。在 bash aliases、飞书 DND、hermes cron 三层建立护栏：① 一键 focus25/45/90 启动番茄钟 ② deep/unlock 切换深度模式 ③ 飞书 3 段 DND 计划 (09-12/14-18/21-02) ④ 工作日 9:00 自动提醒启动深度块。配套 long-term-ai-productivity-system 计划中 SOP-2 设计。",
+  "status": "active",
+  "publishedAt": 1780322304975
+}

@@ -2,5 +2,8 @@
   "ownerId": "default",
   "slug": "mvp-bootstrap",
   "version": "1.0.0",
-  "publishedAt": 1744310400000
+  "publishedAt": 1744310400000,
+  "name": "mvp-bootstrap",
+  "description": "MVP 快速启动模板。触发场景：用户想建新项目、创建 AI 工具、快速上线一个想法。采用 Next.js + shadcn/ui + Prisma + Vercel 全栈方案，GitHub 推送即部署。",
+  "status": "active"
 }

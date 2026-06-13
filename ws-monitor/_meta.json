@@ -1,0 +1,9 @@
+{
+  "ownerId": "flybear16",
+  "slug": "ws-monitor",
+  "version": "1.1.0",
+  "name": "ws-monitor",
+  "description": "监控目录下所有项目的运行状态，包括端口占用、进程信息、Git 状态、数据库连接等。当用户说 /ws list、ws状态、项目状态、ws2026 时触发。",
+  "status": "active",
+  "publishedAt": 1775970837856
+}
