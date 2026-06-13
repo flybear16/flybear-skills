@@ -1,9 +1,6 @@
 {
   "ownerId": "flybear16",
-  "slug": "builder",
   "version": "1.0.0",
-  "name": "builder",
-  "description": "AI Builder 席位 — 从一句话需求到 MVP 上线。触发场景：用户说「做一个 X」「新建项目」「开发 Y 功能」「修这个 bug」「给项目加 Z」。在 Next.js/Vue 3/FastAPI/Spring Boot 四个栈中自动选型，按 5 步流程（PRD→设计→实现→自测→部署）执行，输出可运行代码 + 部署链接。",
-  "status": "active",
+  "slug": "builder",
   "publishedAt": 1780318096550
 }

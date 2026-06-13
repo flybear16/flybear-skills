@@ -1,9 +1,6 @@
 {
   "ownerId": "flybear16",
-  "slug": "evening-journal",
   "version": "1.0.0",
-  "name": "evening-journal",
-  "description": "SOP-3 晚间复盘 — 每天 5 分钟结构化反思。触发场景：用户说「今天结束了」「晚上好」「今天做了啥」「复盘」「journal」「evening」「sop-3」「收工」「晚安」「明天计划」「今天学到了」「今天卡在哪里」。按 STAR-T 框架 (Summary/Today/Action/Roadblock/Tomorrow) 5 段记录，存入 gbrain journal/YYYY-MM-DD 页面，可选写入飞书当晚报告。配套 long-term-ai-productivity-system 计划中 SOP-3 设计，与 sop-2-deep-work-protection 配合形成完整日闭环。",
-  "status": "active",
+  "slug": "evening-journal",
   "publishedAt": 1780323152824
 }
