@@ -67,11 +67,8 @@ metadata:
 ```json
 {
   "ownerId": "flybear16",
-  "slug": "<skill-name>",
   "version": "1.0.0",
-  "name": "<skill-name>",
-  "description": "<与 SKILL.md frontmatter 的 description 一致>",
-  "status": "active",
+  "slug": "<skill-name>",
   "publishedAt": 1780000000000
 }
 ```
@@ -79,9 +76,8 @@ metadata:
 | 字段 | 说明 |
 |------|------|
 | `ownerId` | GitHub 用户名 |
-| `slug` | 与文件夹名 / frontmatter `name` 一致 |
 | `version` | 语义化版本 |
-| `status` | `active` / `draft` / `deprecated` |
+| `slug` | 与文件夹名 / frontmatter `name` 一致 |
 | `publishedAt` | Unix 毫秒时间戳，用 `date +%s%3N` 生成 |
 
 ---

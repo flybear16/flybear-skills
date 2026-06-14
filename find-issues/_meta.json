@@ -1,9 +1,6 @@
 {
   "ownerId": "flybear16",
-  "slug": "find-issues",
   "version": "1.0.0",
-  "name": "find-issues",
-  "description": "代码体检 → 提 GitHub issue。多 agent 编排：N 个 finder 按维度并行扫(bug/安全/死链/不一致/性能/可维护性)→ 每个发现对抗式验证(杀假阳性)→ 去重+查重 → 写成带 file:line 证据的规范 issue → 人工勾选 → gh issue create。证据驱动,空泛发现一律丢弃。与 fix-issues 互补形成 find→fix 闭环。",
-  "status": "active",
+  "slug": "find-issues",
   "publishedAt": 1781376863551
 }
