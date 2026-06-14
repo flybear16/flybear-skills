@@ -30,7 +30,13 @@ description: "MVP 快速启动模板。触发场景：用户想建新项目、�
 
 ```bash
 # 1. 创建 Next.js 项目
-npx create-next-app@latest my-project \n  --typescript \n  --tailwind \n  --eslint \n  --app \n  --src-dir \n  --import-alias "@/*"
+npx create-next-app@latest my-project \
+  --typescript \
+  --tailwind \
+  --eslint \
+  --app \
+  --src-dir \
+  --import-alias "@/*"
 
 # 2. 进入项目
 cd my-project
