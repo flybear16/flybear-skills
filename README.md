@@ -31,7 +31,7 @@
 |-------|---------|------|
 | [**gtd-active**](./gtd-active/) | 用户说「记一下」「加个 todo」「GTD」 | GTD 任务管理 —— 输入自动归类到收件箱/项目/下一步/等待/将来/参考 |
 | [**ws-monitor**](./ws-monitor/) | 用户说 `/ws` 「看下项目状态」 | 监控 `~/ws2026` 所有项目的运行状态（端口/进程/Git/数据库）|
-| [**mvp-bootstrap**](./mvp-bootstrap/) | 用户说「做个 X」「新建项目」「快速上线」 | MVP 快速启动模板 —— Next.js + Tailwind + Supabase 一键脚手架 |
+| [**mvp-bootstrap**](./mvp-bootstrap/) | 用户说「做个 X」「新建项目」「快速上线」 | MVP 快速启动模板 —— Next.js + shadcn/ui + Prisma + Vercel 一键脚手架 |
 | [**builder**](./builder/) | 用户说「从一句话需求到 MVP 上线」 | AI Builder 席位 —— 端到端把想法变成可发布产品 |
 | [**evening-journal**](./evening-journal/) | 用户说「今天结束了」「晚上好」 | SOP-3 晚间复盘 —— 每天 5 分钟结构化反思 |
 | [**sop-2-deep-work-protection**](./sop-2-deep-work-protection/) | — | 深度工作保护机制 (SOP-2) —— 守护 3-5-2 矩阵中 80% builder 时间 |
