@@ -360,7 +360,7 @@ generator client {
 datasource db {
   provider  = "postgresql"
   url       = env("DATABASE_URL")
-  directUrl = env("POSTGRAS_URL_NON_POOLING")
+  directUrl = env("POSTGRES_URL_NON_POOLING")
 }
 
 model User {
