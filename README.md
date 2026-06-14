@@ -19,7 +19,7 @@
 - **场景驱动**：不是「我能做什么」，而是「**用户说什么话时我做这个**」
 - **SOP 化**：每步命令、坑点、验证都写清楚
 - **可独立运行**：每个 skill 自包含，不强依赖其他 skill
-- **可商用**：MIT 协议，标 `public` 的都能拿去用
+- **可商用**：MIT 协议，所有 skill 都可自由拿去用
 
 > 私有 / 实验中 skills 放在姊妹仓库 [`myskills`](https://github.com/flybear16/myskills)（私有）。
 
@@ -39,7 +39,6 @@
 | [**fix-issues**](./fix-issues/) | 用户说「修个 issue」「fix issues」「issue #23 修一下」 | GitHub Issue 修复闭环 — 拉取/理解/TDD 修复/验证门禁/推送 master,自动关 issue |
 | [**find-issues**](./find-issues/) | 用户说「扫一下代码」「体检」「audit」「挖 bug」「提 issue」 | 代码体检 → 提 GitHub issue — 多 agent 按维度并行扫 + 对抗验证杀假阳性 |
 
-> 标 `public` 的可直接复用，标 `private` 的请先联系作者。
 
 ---
 
@@ -102,7 +101,7 @@ npx openskills read flybear-skills/gtd-active,flybear-skills/ws-monitor
 
 ## 📜 许可证
 
-**MIT** —— 标 `public` 的 skill 可自由使用、修改、商用，**保留版权声明即可**。
+**MIT** —— 所有 skill 可自由使用、修改、商用，**保留版权声明即可**。
 
 私有 skill（[myskills](https://github.com/flybear16/myskills) 仓库内）不在本仓库公开。
 
