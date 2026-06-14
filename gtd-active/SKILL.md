@@ -177,7 +177,7 @@ def classify_input(content):
     content_lower = content.lower()
     
     # 日程关键词
-    if any(kw in content_lower for kw in ['周一', '周二', '明天', '下周', '点', '之前', '截止', '开会', '会议']):
+    if any(kw in content_lower for kw in ['周一', '周二', '明天', '下周', '几点', '点钟', '之前', '截止', '开会', '会议']):
         return 'calendar'
     
     # 等待关键词
