@@ -280,7 +280,7 @@ const judged = await parallel(findings.map(f => () => {
   return parallel(Array.from({length: skeptics}, () => () =>
     agent(`Adversarially REFUTE this finding. Default to isReal=false if uncertain. Finding: ${JSON.stringify(f)}`,
       { phase: 'Verify', schema: VERDICT })))
-    .then(vs => ({ f, real: vs.filter(Boolean).filter(v => v.isReal).length >= Math.ceil(skeptics/2) }))
+    .then(vs => ({ f, real: vs.filter(Boolean).filter(v => v.isReal).length >= Math.floor(skeptics/2) + 1 }))
 }))
 const confirmed = judged.filter(Boolean).filter(j => j.real).map(j => j.f)
 
