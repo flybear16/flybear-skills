@@ -1,5 +1,5 @@
 ---
-name: gtd
+name: gtd-active
 description: "GTD (Getting Things Done) 任务管理系统。将用户输入自动归类到收件箱、项目、下一步行动、日程、等待、将来/也许、参考资料等清单。支持自动分类、手动分类、查看清单、完成任务等功能。"
 metadata:
   {
