@@ -1,0 +1,48 @@
+name: validate-skills
+
+# 让 README/CONTRIBUTING 里「CI 会跑格式检查」的声明成真。
+# 检查：① 每个 skill 有 SKILL.md + _meta.json ② _meta.json 合法且为标准 4 字段
+#       ③ 文件夹名 = frontmatter name = _meta slug 三处一致 ④ README badge 数 = skill 数
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+    branches: [master, main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate skills
+        run: |
+          set -e
+          std_fields='ownerId version slug publishedAt'
+          skills=()
+          for d in */; do
+            name="${d%/}"
+            [ "$name" = ".github" ] && continue
+            # ① 必需文件
+            [ -f "${d}SKILL.md" ] || { echo "❌ ${name}/ 缺 SKILL.md"; exit 1; }
+            [ -f "${d}_meta.json" ] || { echo "❌ ${name}/ 缺 _meta.json"; exit 1; }
+            skills+=("$name")
+            # ② _meta.json 合法 + 标准 4 字段
+            python3 -c "
+          import json,sys
+          d=json.load(open('${name}/_meta.json'))
+          got=sorted(d.keys())
+          want=sorted('${std_fields}'.split())
+          assert got==want, f'❌ ${name} _meta 字段不符: {got} ≠ {want}'
+          "
+            # ③ 三处命名一致
+            fm=$(grep -m1 '^name:' "${d}SKILL.md" | sed 's/^name:[[:space:]]*//; s/"//g; s/'\''//g' | tr -d '[:space:]')
+            slug=$(python3 -c "import json;print(json.load(open('${name}/_meta.json'))['slug'])")
+            [ "$fm" = "$name" ] || { echo "❌ ${name}: frontmatter name='$fm' ≠ dir"; exit 1; }
+            [ "$slug" = "$name" ] || { echo "❌ ${name}: _meta slug='$slug' ≠ dir"; exit 1; }
+          done
+          # ④ README badge 数 = skill 数
+          count=${#skills[@]}
+          grep -q "skills-${count}" README.md || { echo "❌ README badge 数 ≠ ${count}"; exit 1; }
+          echo "✅ All ${count} skills valid (SKILL.md + _meta 4字段 + 三处命名一致 + badge 数对)"
