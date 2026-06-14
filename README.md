@@ -2,9 +2,9 @@
 
 > **开源共享的 AI 助手技能集合**（Hermes / OpenClaw 兼容），欢迎使用、Star、Fork！
 
-[![Skills: 9](https://img.shields.io/badge/skills-9-blue)]()
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)]()
-[![Open Source](https://img.shields.io/badge/open_source-%E2%9D%A4-red)]()
+![Skills: 9](https://img.shields.io/badge/skills-9-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Open Source](https://img.shields.io/badge/open_source-%E2%9D%A4-red)
 
 仓库地址：[github.com/flybear16/flybear-skills](https://github.com/flybear16/flybear-skills)
 
