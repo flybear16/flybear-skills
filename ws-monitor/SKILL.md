@@ -102,17 +102,17 @@ du -sh <target_dir>/<project>
 📂 ~/ws2026 项目状态
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🟢 rocket-api          Java/Maven    PID:1825293  :3080  ✓ PostgreSQL
+🟢 rocket-api          Java/Maven    PID:12345  :3080  ✓ PostgreSQL
    main: feat: 支持 PostgreSQL + Dubbo 通用服务接口
-   remote: git@gitee.com:auto-gc/rocket-api.git
+   remote: git@gitee.com:<your-org>/<repo>.git
    状态: 运行中 | 磁盘: 85M | 无未提交修改
 
 🔴 moyin-creator        Node.js      --           :5173  ✗ 未运行
    main: initial commit
-   remote: https://github.com/MemeCalculate/moyin-creator.git
+   remote: https://github.com/<your-org>/<repo>.git
    状态: 未运行 | 磁盘: 666M | 2 个文件修改
 
-🟢 Step-Realtime-Console  Node.js   PID:1238587  :8080  ✓
+🟢 Step-Realtime-Console  Node.js   PID:67890  :8080  ✓
    main: latest commit
    状态: 运行中 | 磁盘: 120M
 
