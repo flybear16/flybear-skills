@@ -2,7 +2,7 @@
 
 > **开源共享的 AI 助手技能集合**（Hermes / OpenClaw 兼容），欢迎使用、Star、Fork！
 
-![Skills: 11](https://img.shields.io/badge/skills-11-blue)
+![Skills: 12](https://img.shields.io/badge/skills-12-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![Open Source](https://img.shields.io/badge/open_source-%E2%9D%A4-red)
 
@@ -25,7 +25,7 @@
 
 ---
 
-## 📦 技能列表（11 个）
+## 📦 技能列表（12 个）
 
 | Skill | 触发场景 | 用途 |
 |-------|---------|------|
@@ -40,6 +40,7 @@
 | [**find-issues**](./find-issues/) | 用户说「扫一下代码」「体检」「audit」「挖 bug」「提 issue」 | 代码体检 → 提 GitHub issue — 多 agent 按维度并行扫 + 对抗验证杀假阳性 |
 | [**idea-evolve**](./idea-evolve/) | 用户说「完善点子」「每日点子」「催办老点子」「点子周报」 | 每日点子完善循环工程 — 选点/落地追踪/行动转化 3 子循环 |
 | [**changelog**](./changelog/) | 用户/agent 说「代码写完了」「commit 了」「生成 changelog」「更新日志」 | Git commit 历史 → Keep-a-Changelog 规范文档 — agent 工作流自动触发 |
+| [**diagnose**](./diagnose/) | 用户/agent 说「扫一下项目」「体检」「这是什么项目」「audit」 | 项目体检报告 — 类型识别/评分/风险/缺失文件/告警/建议，纯 Python 零依赖 |
 
 
 ---
